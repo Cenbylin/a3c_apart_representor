@@ -1,0 +1,244 @@
+2018-08-01 12:27:03,687 : lr: 0.0001
+2018-08-01 12:27:03,687 : gamma: 0.99
+2018-08-01 12:27:03,688 : tau: 1.0
+2018-08-01 12:27:03,688 : seed: 1
+2018-08-01 12:27:03,688 : workers: 7
+2018-08-01 12:27:03,688 : num_steps: 20
+2018-08-01 12:27:03,688 : max_episode_length: 10000
+2018-08-01 12:27:03,688 : env: Pong-v0
+2018-08-01 12:27:03,688 : env_config: config.json
+2018-08-01 12:27:03,688 : shared_optimizer: True
+2018-08-01 12:27:03,688 : load: False
+2018-08-01 12:27:03,688 : save_max: True
+2018-08-01 12:27:03,688 : optimizer: Adam
+2018-08-01 12:27:03,688 : load_model_dir: trained_models/
+2018-08-01 12:27:03,688 : save_model_dir: trained_models/
+2018-08-01 12:27:03,688 : log_dir: logs/
+2018-08-01 12:27:03,688 : gpu_ids: [0, 0]
+2018-08-01 12:27:03,688 : amsgrad: True
+2018-08-01 12:27:03,688 : skip_rate: 4
+2018-08-01 12:27:03,689 : pre_rnet: 5wsam
+2018-08-01 12:27:03,689 : rep_train_time: 10
+2018-08-01 12:27:03,689 : trace_length: 50
+2018-08-01 12:27:03,689 : rl_r: 1e-06
+2018-08-01 12:27:03,689 : max_step: 100000
+2018-08-01 12:27:03,689 : log_target: rnet(5w)l50t10
+2018-08-01 12:27:18,199 : UpdateStep 118 Time 00h 00m 14s, episode reward -21.0, episode length 1021, reward mean -21.0000
+2018-08-01 12:27:34,972 : UpdateStep 459 Time 00h 00m 31s, episode reward -21.0, episode length 1015, reward mean -21.0000
+2018-08-01 12:27:53,500 : UpdateStep 760 Time 00h 00m 49s, episode reward -21.0, episode length 1021, reward mean -21.0000
+2018-08-01 12:28:14,643 : UpdateStep 1051 Time 00h 01m 10s, episode reward -19.0, episode length 1282, reward mean -20.5000
+2018-08-01 12:28:33,308 : UpdateStep 1322 Time 00h 01m 29s, episode reward -21.0, episode length 1017, reward mean -20.6000
+2018-08-01 12:28:52,328 : UpdateStep 1603 Time 00h 01m 48s, episode reward -21.0, episode length 1081, reward mean -20.6667
+2018-08-01 12:29:20,466 : UpdateStep 2003 Time 00h 02m 16s, episode reward -14.0, episode length 2047, reward mean -19.7143
+2018-08-01 12:29:49,118 : UpdateStep 2418 Time 00h 02m 45s, episode reward -16.0, episode length 2266, reward mean -19.2500
+2018-08-01 12:30:19,481 : UpdateStep 2850 Time 00h 03m 15s, episode reward -20.0, episode length 2321, reward mean -19.3333
+2018-08-01 12:30:50,071 : UpdateStep 3290 Time 00h 03m 46s, episode reward -19.0, episode length 2401, reward mean -19.3000
+2018-08-01 12:31:15,621 : UpdateStep 3675 Time 00h 04m 11s, episode reward -19.0, episode length 1828, reward mean -19.2727
+2018-08-01 12:31:44,011 : UpdateStep 4088 Time 00h 04m 40s, episode reward -19.0, episode length 2173, reward mean -19.2500
+2018-08-01 12:32:13,374 : UpdateStep 4499 Time 00h 05m 09s, episode reward -17.0, episode length 2243, reward mean -19.0769
+2018-08-01 12:32:44,480 : UpdateStep 4950 Time 00h 05m 40s, episode reward -17.0, episode length 2514, reward mean -18.9286
+2018-08-01 12:33:14,160 : UpdateStep 5368 Time 00h 06m 10s, episode reward -20.0, episode length 2265, reward mean -19.0000
+2018-08-01 12:33:35,295 : UpdateStep 5674 Time 00h 06m 31s, episode reward -21.0, episode length 1287, reward mean -19.1250
+2018-08-01 12:34:03,691 : UpdateStep 6087 Time 00h 06m 59s, episode reward -20.0, episode length 2100, reward mean -19.1765
+2018-08-01 12:34:37,786 : UpdateStep 6582 Time 00h 07m 33s, episode reward -21.0, episode length 2810, reward mean -19.2778
+2018-08-01 12:35:06,846 : UpdateStep 7007 Time 00h 08m 02s, episode reward -20.0, episode length 2191, reward mean -19.3158
+2018-08-01 12:35:35,766 : UpdateStep 7424 Time 00h 08m 31s, episode reward -19.0, episode length 2118, reward mean -19.3000
+2018-08-01 12:36:03,087 : UpdateStep 7811 Time 00h 08m 59s, episode reward -17.0, episode length 1984, reward mean -19.1905
+2018-08-01 12:36:34,682 : UpdateStep 8247 Time 00h 09m 30s, episode reward -13.0, episode length 2415, reward mean -18.9091
+2018-08-01 12:37:04,974 : UpdateStep 8673 Time 00h 10m 01s, episode reward -13.0, episode length 2253, reward mean -18.6522
+2018-08-01 12:37:37,772 : UpdateStep 9156 Time 00h 10m 33s, episode reward -12.0, episode length 2608, reward mean -18.3750
+2018-08-01 12:38:09,146 : UpdateStep 9601 Time 00h 11m 05s, episode reward -14.0, episode length 2390, reward mean -18.2000
+2018-08-01 12:38:39,828 : UpdateStep 10039 Time 00h 11m 35s, episode reward -14.0, episode length 2375, reward mean -18.0385
+2018-08-01 12:39:09,116 : UpdateStep 10474 Time 00h 12m 05s, episode reward -16.0, episode length 2189, reward mean -17.9630
+2018-08-01 12:39:38,156 : UpdateStep 10891 Time 00h 12m 34s, episode reward -16.0, episode length 2132, reward mean -17.8929
+2018-08-01 12:40:07,905 : UpdateStep 11326 Time 00h 13m 03s, episode reward -17.0, episode length 2272, reward mean -17.8621
+2018-08-01 12:40:40,975 : UpdateStep 11805 Time 00h 13m 37s, episode reward -9.0, episode length 2628, reward mean -17.5667
+2018-08-01 12:41:15,623 : UpdateStep 12300 Time 00h 14m 11s, episode reward -12.0, episode length 2813, reward mean -17.3871
+2018-08-01 12:41:48,295 : UpdateStep 12777 Time 00h 14m 44s, episode reward -12.0, episode length 2592, reward mean -17.2188
+2018-08-01 12:42:19,586 : UpdateStep 13228 Time 00h 15m 15s, episode reward -14.0, episode length 2393, reward mean -17.1212
+2018-08-01 12:42:52,422 : UpdateStep 13715 Time 00h 15m 48s, episode reward -14.0, episode length 2643, reward mean -17.0294
+2018-08-01 12:43:23,389 : UpdateStep 14152 Time 00h 16m 19s, episode reward -13.0, episode length 2368, reward mean -16.9143
+2018-08-01 12:43:56,885 : UpdateStep 14629 Time 00h 16m 52s, episode reward -10.0, episode length 2658, reward mean -16.7222
+2018-08-01 12:44:26,843 : UpdateStep 15069 Time 00h 17m 22s, episode reward -12.0, episode length 2347, reward mean -16.5946
+2018-08-01 12:44:55,396 : UpdateStep 15485 Time 00h 17m 51s, episode reward -14.0, episode length 2134, reward mean -16.5263
+2018-08-01 12:45:24,271 : UpdateStep 15905 Time 00h 18m 20s, episode reward -14.0, episode length 2162, reward mean -16.4615
+2018-08-01 12:45:54,576 : UpdateStep 16337 Time 00h 18m 50s, episode reward -12.0, episode length 2273, reward mean -16.3500
+2018-08-01 12:46:26,436 : UpdateStep 16799 Time 00h 19m 22s, episode reward -10.0, episode length 2443, reward mean -16.1951
+2018-08-01 12:46:54,187 : UpdateStep 17193 Time 00h 19m 50s, episode reward -15.0, episode length 2054, reward mean -16.1667
+2018-08-01 12:47:28,089 : UpdateStep 17664 Time 00h 20m 24s, episode reward -10.0, episode length 2531, reward mean -16.0233
+2018-08-01 12:47:59,897 : UpdateStep 18085 Time 00h 20m 55s, episode reward -14.0, episode length 2332, reward mean -15.9773
+2018-08-01 12:48:32,839 : UpdateStep 18539 Time 00h 21m 28s, episode reward -12.0, episode length 2551, reward mean -15.8889
+2018-08-01 12:49:05,952 : UpdateStep 18974 Time 00h 22m 02s, episode reward -10.0, episode length 2378, reward mean -15.7609
+2018-08-01 12:49:40,284 : UpdateStep 19443 Time 00h 22m 36s, episode reward -8.0, episode length 2686, reward mean -15.5957
+2018-08-01 12:50:11,688 : UpdateStep 19873 Time 00h 23m 07s, episode reward -12.0, episode length 2313, reward mean -15.5208
+2018-08-01 12:50:46,332 : UpdateStep 20338 Time 00h 23m 42s, episode reward -13.0, episode length 2446, reward mean -15.4694
+2018-08-01 12:51:19,864 : UpdateStep 20808 Time 00h 24m 15s, episode reward -11.0, episode length 2298, reward mean -15.3800
+2018-08-01 12:51:51,290 : UpdateStep 21238 Time 00h 24m 47s, episode reward -14.0, episode length 2141, reward mean -15.3529
+2018-08-01 12:52:26,883 : UpdateStep 21720 Time 00h 25m 22s, episode reward -11.0, episode length 2504, reward mean -15.2692
+2018-08-01 12:52:59,288 : UpdateStep 22159 Time 00h 25m 55s, episode reward -9.0, episode length 2489, reward mean -15.1509
+2018-08-01 12:53:31,599 : UpdateStep 22591 Time 00h 26m 27s, episode reward -13.0, episode length 2258, reward mean -15.1111
+2018-08-01 12:54:06,455 : UpdateStep 23063 Time 00h 27m 02s, episode reward -11.0, episode length 2426, reward mean -15.0364
+2018-08-01 12:54:35,054 : UpdateStep 23475 Time 00h 27m 31s, episode reward -17.0, episode length 2137, reward mean -15.0714
+2018-08-01 12:55:02,215 : UpdateStep 23856 Time 00h 27m 58s, episode reward -16.0, episode length 1934, reward mean -15.0877
+2018-08-01 12:55:32,460 : UpdateStep 24288 Time 00h 28m 28s, episode reward -11.0, episode length 2363, reward mean -15.0172
+2018-08-01 12:56:02,666 : UpdateStep 24714 Time 00h 28m 58s, episode reward -11.0, episode length 2374, reward mean -14.9492
+2018-08-01 12:56:33,544 : UpdateStep 25147 Time 00h 29m 29s, episode reward -14.0, episode length 2373, reward mean -14.9333
+2018-08-01 12:57:04,866 : UpdateStep 25603 Time 00h 30m 00s, episode reward -12.0, episode length 2480, reward mean -14.8852
+2018-08-01 12:57:35,046 : UpdateStep 26033 Time 00h 30m 31s, episode reward -11.0, episode length 2332, reward mean -14.8226
+2018-08-01 12:58:05,775 : UpdateStep 26470 Time 00h 31m 01s, episode reward -13.0, episode length 2372, reward mean -14.7937
+2018-08-01 12:58:35,970 : UpdateStep 26904 Time 00h 31m 32s, episode reward -13.0, episode length 2335, reward mean -14.7656
+2018-08-01 12:59:06,525 : UpdateStep 27344 Time 00h 32m 02s, episode reward -11.0, episode length 2422, reward mean -14.7077
+2018-08-01 12:59:34,799 : UpdateStep 27727 Time 00h 32m 30s, episode reward -17.0, episode length 2033, reward mean -14.7424
+2018-08-01 13:00:04,351 : UpdateStep 28141 Time 00h 33m 00s, episode reward -14.0, episode length 2244, reward mean -14.7313
+2018-08-01 13:00:35,843 : UpdateStep 28588 Time 00h 33m 31s, episode reward -9.0, episode length 2508, reward mean -14.6471
+2018-08-01 13:01:05,635 : UpdateStep 29004 Time 00h 34m 01s, episode reward -13.0, episode length 2323, reward mean -14.6232
+2018-08-01 13:01:36,359 : UpdateStep 29445 Time 00h 34m 32s, episode reward -11.0, episode length 2478, reward mean -14.5714
+2018-08-01 13:02:05,554 : UpdateStep 29850 Time 00h 35m 01s, episode reward -16.0, episode length 2144, reward mean -14.5915
+2018-08-01 13:02:35,169 : UpdateStep 30256 Time 00h 35m 31s, episode reward -13.0, episode length 2284, reward mean -14.5694
+2018-08-01 13:03:04,508 : UpdateStep 30685 Time 00h 36m 00s, episode reward -12.0, episode length 2343, reward mean -14.5342
+2018-08-01 13:03:36,590 : UpdateStep 31135 Time 00h 36m 32s, episode reward -11.0, episode length 2558, reward mean -14.4865
+2018-08-01 13:04:07,289 : UpdateStep 31568 Time 00h 37m 03s, episode reward -10.0, episode length 2493, reward mean -14.4267
+2018-08-01 13:04:36,832 : UpdateStep 31997 Time 00h 37m 32s, episode reward -13.0, episode length 2283, reward mean -14.4079
+2018-08-01 13:05:04,851 : UpdateStep 32386 Time 00h 38m 00s, episode reward -16.0, episode length 2085, reward mean -14.4286
+2018-08-01 13:05:34,654 : UpdateStep 32814 Time 00h 38m 30s, episode reward -12.0, episode length 2361, reward mean -14.3974
+2018-08-01 13:06:05,864 : UpdateStep 33259 Time 00h 39m 01s, episode reward -10.0, episode length 2451, reward mean -14.3418
+2018-08-01 13:06:34,752 : UpdateStep 33664 Time 00h 39m 30s, episode reward -14.0, episode length 2153, reward mean -14.3375
+2018-08-01 13:07:06,270 : UpdateStep 34119 Time 00h 40m 02s, episode reward -12.0, episode length 2582, reward mean -14.3086
+2018-08-01 13:07:35,750 : UpdateStep 34539 Time 00h 40m 31s, episode reward -13.0, episode length 2308, reward mean -14.2927
+2018-08-01 13:08:04,961 : UpdateStep 34960 Time 00h 41m 01s, episode reward -13.0, episode length 2335, reward mean -14.2771
+2018-08-01 13:08:37,783 : UpdateStep 35423 Time 00h 41m 33s, episode reward -12.0, episode length 2417, reward mean -14.2500
+2018-08-01 13:09:09,499 : UpdateStep 35857 Time 00h 42m 05s, episode reward -14.0, episode length 2197, reward mean -14.2471
+2018-08-01 13:09:43,249 : UpdateStep 36341 Time 00h 42m 39s, episode reward -9.0, episode length 2700, reward mean -14.1860
+2018-08-01 13:10:15,478 : UpdateStep 36783 Time 00h 43m 11s, episode reward -14.0, episode length 2172, reward mean -14.1839
+2018-08-01 13:10:51,652 : UpdateStep 37305 Time 00h 43m 47s, episode reward -9.0, episode length 2825, reward mean -14.1250
+2018-08-01 13:11:24,872 : UpdateStep 37772 Time 00h 44m 20s, episode reward -11.0, episode length 2364, reward mean -14.0899
+2018-08-01 13:11:52,292 : UpdateStep 38149 Time 00h 44m 48s, episode reward -14.0, episode length 2058, reward mean -14.0889
+2018-08-01 13:12:25,178 : UpdateStep 38627 Time 00h 45m 21s, episode reward -10.0, episode length 2437, reward mean -14.0440
+2018-08-01 13:12:56,604 : UpdateStep 39065 Time 00h 45m 52s, episode reward -13.0, episode length 2292, reward mean -14.0326
+2018-08-01 13:13:25,141 : UpdateStep 39479 Time 00h 46m 21s, episode reward -17.0, episode length 2224, reward mean -14.0645
+2018-08-01 13:13:51,949 : UpdateStep 39845 Time 00h 46m 48s, episode reward -17.0, episode length 1875, reward mean -14.0957
+2018-08-01 13:14:21,243 : UpdateStep 40264 Time 00h 47m 17s, episode reward -14.0, episode length 2164, reward mean -14.0947
+2018-08-01 13:14:49,986 : UpdateStep 40681 Time 00h 47m 46s, episode reward -16.0, episode length 2052, reward mean -14.1146
+2018-08-01 13:15:21,375 : UpdateStep 41118 Time 00h 48m 17s, episode reward -14.0, episode length 2164, reward mean -14.1134
+2018-08-01 13:15:50,095 : UpdateStep 41535 Time 00h 48m 46s, episode reward -13.0, episode length 2226, reward mean -14.1020
+2018-08-01 13:16:23,419 : UpdateStep 41996 Time 00h 49m 19s, episode reward -10.0, episode length 2581, reward mean -14.0606
+2018-08-01 13:16:59,126 : UpdateStep 42515 Time 00h 49m 55s, episode reward -11.0, episode length 3099, reward mean -14.0300
+2018-08-01 13:17:25,504 : UpdateStep 42943 Time 00h 50m 21s, episode reward -17.0, episode length 2172, reward mean -14.0594
+2018-08-01 13:17:55,347 : UpdateStep 43446 Time 00h 50m 51s, episode reward -9.0, episode length 2509, reward mean -14.0098
+2018-08-01 13:18:22,704 : UpdateStep 43908 Time 00h 51m 18s, episode reward -11.0, episode length 2296, reward mean -13.9806
+2018-08-01 13:18:50,782 : UpdateStep 44370 Time 00h 51m 46s, episode reward -12.0, episode length 2322, reward mean -13.9615
+2018-08-01 13:19:19,341 : UpdateStep 44842 Time 00h 52m 15s, episode reward -11.0, episode length 2468, reward mean -13.9333
+2018-08-01 13:19:47,495 : UpdateStep 45305 Time 00h 52m 43s, episode reward -12.0, episode length 2409, reward mean -13.9151
+2018-08-01 13:20:16,101 : UpdateStep 45768 Time 00h 53m 12s, episode reward -12.0, episode length 2431, reward mean -13.8972
+2018-08-01 13:20:43,728 : UpdateStep 46222 Time 00h 53m 39s, episode reward -12.0, episode length 2357, reward mean -13.8796
+2018-08-01 13:21:12,365 : UpdateStep 46708 Time 00h 54m 08s, episode reward -14.0, episode length 2529, reward mean -13.8807
+2018-08-01 13:21:43,055 : UpdateStep 47158 Time 00h 54m 39s, episode reward -12.0, episode length 2443, reward mean -13.8636
+2018-08-01 13:22:13,488 : UpdateStep 47583 Time 00h 55m 09s, episode reward -13.0, episode length 2377, reward mean -13.8559
+2018-08-01 13:22:44,351 : UpdateStep 48027 Time 00h 55m 40s, episode reward -12.0, episode length 2463, reward mean -13.8393
+2018-08-01 13:23:11,027 : UpdateStep 48405 Time 00h 56m 07s, episode reward -18.0, episode length 1940, reward mean -13.8761
+2018-08-01 13:23:40,040 : UpdateStep 48825 Time 00h 56m 36s, episode reward -15.0, episode length 2236, reward mean -13.8860
+2018-08-01 13:24:11,707 : UpdateStep 49284 Time 00h 57m 07s, episode reward -11.0, episode length 2564, reward mean -13.8609
+2018-08-01 13:24:43,224 : UpdateStep 49722 Time 00h 57m 39s, episode reward -13.0, episode length 2484, reward mean -13.8534
+2018-08-01 13:25:18,013 : UpdateStep 50221 Time 00h 58m 14s, episode reward -5.0, episode length 2948, reward mean -13.7778
+2018-08-01 13:25:49,088 : UpdateStep 50652 Time 00h 58m 45s, episode reward -13.0, episode length 2412, reward mean -13.7712
+2018-08-01 13:26:21,652 : UpdateStep 51123 Time 00h 59m 17s, episode reward -10.0, episode length 2658, reward mean -13.7395
+2018-08-01 13:26:53,596 : UpdateStep 51568 Time 00h 59m 49s, episode reward -10.0, episode length 2547, reward mean -13.7083
+2018-08-01 13:27:23,310 : UpdateStep 51985 Time 01h 00m 19s, episode reward -13.0, episode length 2352, reward mean -13.7025
+2018-08-01 13:27:52,243 : UpdateStep 52395 Time 01h 00m 48s, episode reward -14.0, episode length 2220, reward mean -13.7049
+2018-08-01 13:28:21,219 : UpdateStep 52799 Time 01h 01m 17s, episode reward -12.0, episode length 2239, reward mean -13.6911
+2018-08-01 13:28:51,082 : UpdateStep 53222 Time 01h 01m 47s, episode reward -13.0, episode length 2338, reward mean -13.6855
+2018-08-01 13:29:23,054 : UpdateStep 53685 Time 01h 02m 19s, episode reward -10.0, episode length 2598, reward mean -13.6560
+2018-08-01 13:29:55,155 : UpdateStep 54140 Time 01h 02m 51s, episode reward -10.0, episode length 2602, reward mean -13.6270
+2018-08-01 13:30:24,211 : UpdateStep 54562 Time 01h 03m 20s, episode reward -12.0, episode length 2379, reward mean -13.6142
+2018-08-01 13:30:59,164 : UpdateStep 55057 Time 01h 03m 55s, episode reward -6.0, episode length 2960, reward mean -13.5547
+2018-08-01 13:31:29,485 : UpdateStep 55479 Time 01h 04m 25s, episode reward -11.0, episode length 2437, reward mean -13.5349
+2018-08-01 13:31:58,582 : UpdateStep 55899 Time 01h 04m 54s, episode reward -11.0, episode length 2314, reward mean -13.5154
+2018-08-01 13:32:26,913 : UpdateStep 56298 Time 01h 05m 22s, episode reward -13.0, episode length 2251, reward mean -13.5115
+2018-08-01 13:32:57,251 : UpdateStep 56730 Time 01h 05m 53s, episode reward -10.0, episode length 2468, reward mean -13.4848
+2018-08-01 13:33:29,540 : UpdateStep 57191 Time 01h 06m 25s, episode reward -9.0, episode length 2580, reward mean -13.4511
+2018-08-01 13:34:02,244 : UpdateStep 57650 Time 01h 06m 58s, episode reward -8.0, episode length 2640, reward mean -13.4104
+2018-08-01 13:34:32,178 : UpdateStep 58080 Time 01h 07m 28s, episode reward -12.0, episode length 2389, reward mean -13.4000
+2018-08-01 13:35:02,210 : UpdateStep 58510 Time 01h 07m 58s, episode reward -12.0, episode length 2384, reward mean -13.3897
+2018-08-01 13:35:30,941 : UpdateStep 58916 Time 01h 08m 26s, episode reward -13.0, episode length 2188, reward mean -13.3869
+2018-08-01 13:36:02,906 : UpdateStep 59376 Time 01h 08m 58s, episode reward -10.0, episode length 2639, reward mean -13.3623
+2018-08-01 13:36:35,415 : UpdateStep 59837 Time 01h 09m 31s, episode reward -8.0, episode length 2744, reward mean -13.3237
+2018-08-01 13:37:08,101 : UpdateStep 60302 Time 01h 10m 04s, episode reward -11.0, episode length 2649, reward mean -13.3071
+2018-08-01 13:37:41,967 : UpdateStep 60784 Time 01h 10m 38s, episode reward -10.0, episode length 2803, reward mean -13.2837
+2018-08-01 13:38:14,024 : UpdateStep 61246 Time 01h 11m 10s, episode reward -9.0, episode length 2628, reward mean -13.2535
+2018-08-01 13:38:45,324 : UpdateStep 61691 Time 01h 11m 41s, episode reward -11.0, episode length 2503, reward mean -13.2378
+2018-08-01 13:39:16,005 : UpdateStep 62129 Time 01h 12m 12s, episode reward -13.0, episode length 2396, reward mean -13.2361
+2018-08-01 13:39:46,666 : UpdateStep 62569 Time 01h 12m 42s, episode reward -11.0, episode length 2458, reward mean -13.2207
+2018-08-01 13:40:18,197 : UpdateStep 63024 Time 01h 13m 14s, episode reward -13.0, episode length 2544, reward mean -13.2192
+2018-08-01 13:40:52,756 : UpdateStep 63524 Time 01h 13m 48s, episode reward -10.0, episode length 2978, reward mean -13.1973
+2018-08-01 13:41:27,632 : UpdateStep 64009 Time 01h 14m 23s, episode reward -8.0, episode length 2865, reward mean -13.1622
+2018-08-01 13:41:56,415 : UpdateStep 64403 Time 01h 14m 52s, episode reward -15.0, episode length 2130, reward mean -13.1745
+2018-08-01 13:42:30,257 : UpdateStep 64880 Time 01h 15m 26s, episode reward -10.0, episode length 2745, reward mean -13.1533
+2018-08-01 13:43:01,987 : UpdateStep 65329 Time 01h 15m 58s, episode reward -11.0, episode length 2549, reward mean -13.1391
+2018-08-01 13:43:34,528 : UpdateStep 65803 Time 01h 16m 30s, episode reward -14.0, episode length 2753, reward mean -13.1447
+2018-08-01 13:44:07,887 : UpdateStep 66262 Time 01h 17m 03s, episode reward -11.0, episode length 2692, reward mean -13.1307
+2018-08-01 13:44:38,697 : UpdateStep 66700 Time 01h 17m 34s, episode reward -12.0, episode length 2396, reward mean -13.1234
+2018-08-01 13:45:10,052 : UpdateStep 67130 Time 01h 18m 06s, episode reward -11.0, episode length 2468, reward mean -13.1097
+2018-08-01 13:45:43,174 : UpdateStep 67587 Time 01h 18m 39s, episode reward -11.0, episode length 2597, reward mean -13.0962
+2018-08-01 13:46:21,840 : UpdateStep 68128 Time 01h 19m 17s, episode reward -5.0, episode length 3260, reward mean -13.0446
+2018-08-01 13:46:54,029 : UpdateStep 68569 Time 01h 19m 50s, episode reward -12.0, episode length 2432, reward mean -13.0380
+2018-08-01 13:47:31,340 : UpdateStep 69093 Time 01h 20m 27s, episode reward -5.0, episode length 3099, reward mean -12.9874
+2018-08-01 13:48:05,179 : UpdateStep 69563 Time 01h 21m 01s, episode reward -9.0, episode length 2675, reward mean -12.9625
+2018-08-01 13:48:36,271 : UpdateStep 69995 Time 01h 21m 32s, episode reward -10.0, episode length 2382, reward mean -12.9441
+2018-08-01 13:49:07,405 : UpdateStep 70434 Time 01h 22m 03s, episode reward -11.0, episode length 2428, reward mean -12.9321
+2018-08-01 13:49:43,232 : UpdateStep 70917 Time 01h 22m 39s, episode reward -7.0, episode length 2834, reward mean -12.8957
+2018-08-01 13:50:24,296 : UpdateStep 71473 Time 01h 23m 20s, episode reward -8.0, episode length 3461, reward mean -12.8659
+2018-08-01 13:50:58,075 : UpdateStep 71949 Time 01h 23m 54s, episode reward -10.0, episode length 2686, reward mean -12.8485
+2018-08-01 13:51:28,370 : UpdateStep 72359 Time 01h 24m 24s, episode reward -12.0, episode length 2240, reward mean -12.8434
+2018-08-01 13:52:01,211 : UpdateStep 72802 Time 01h 24m 57s, episode reward -13.0, episode length 2522, reward mean -12.8443
+2018-08-01 13:52:32,818 : UpdateStep 73242 Time 01h 25m 28s, episode reward -11.0, episode length 2452, reward mean -12.8333
+2018-08-01 13:53:08,084 : UpdateStep 73726 Time 01h 26m 04s, episode reward -9.0, episode length 2794, reward mean -12.8107
+2018-08-01 13:53:41,684 : UpdateStep 74171 Time 01h 26m 37s, episode reward -10.0, episode length 2532, reward mean -12.7941
+2018-08-01 13:54:13,636 : UpdateStep 74613 Time 01h 27m 09s, episode reward -13.0, episode length 2431, reward mean -12.7953
+2018-08-01 13:54:45,020 : UpdateStep 75035 Time 01h 27m 41s, episode reward -14.0, episode length 2344, reward mean -12.8023
+2018-08-01 13:55:17,812 : UpdateStep 75486 Time 01h 28m 13s, episode reward -11.0, episode length 2570, reward mean -12.7919
+2018-08-01 13:55:51,413 : UpdateStep 75948 Time 01h 28m 47s, episode reward -9.0, episode length 2628, reward mean -12.7701
+2018-08-01 13:56:24,295 : UpdateStep 76408 Time 01h 29m 20s, episode reward -11.0, episode length 2589, reward mean -12.7600
+2018-08-01 13:56:53,388 : UpdateStep 76808 Time 01h 29m 49s, episode reward -13.0, episode length 2165, reward mean -12.7614
+2018-08-01 13:57:22,687 : UpdateStep 77234 Time 01h 30m 18s, episode reward -11.0, episode length 2264, reward mean -12.7514
+2018-08-01 13:57:54,910 : UpdateStep 77685 Time 01h 30m 50s, episode reward -11.0, episode length 2529, reward mean -12.7416
+2018-08-01 13:58:23,778 : UpdateStep 78094 Time 01h 31m 19s, episode reward -14.0, episode length 2147, reward mean -12.7486
+2018-08-01 13:58:56,189 : UpdateStep 78551 Time 01h 31m 52s, episode reward -9.0, episode length 2639, reward mean -12.7278
+2018-08-01 13:59:27,038 : UpdateStep 78979 Time 01h 32m 23s, episode reward -12.0, episode length 2355, reward mean -12.7238
+2018-08-01 13:59:57,340 : UpdateStep 79396 Time 01h 32m 53s, episode reward -13.0, episode length 2265, reward mean -12.7253
+2018-08-01 14:00:29,891 : UpdateStep 79852 Time 01h 33m 25s, episode reward -11.0, episode length 2566, reward mean -12.7158
+2018-08-01 14:01:00,816 : UpdateStep 80287 Time 01h 33m 56s, episode reward -15.0, episode length 2342, reward mean -12.7283
+2018-08-01 14:01:32,734 : UpdateStep 80811 Time 01h 34m 28s, episode reward -8.0, episode length 2854, reward mean -12.7027
+2018-08-01 14:01:56,845 : UpdateStep 81266 Time 01h 34m 52s, episode reward -17.0, episode length 1852, reward mean -12.7258
+2018-08-01 14:02:22,978 : UpdateStep 81728 Time 01h 35m 19s, episode reward -15.0, episode length 2138, reward mean -12.7380
+2018-08-01 14:02:49,551 : UpdateStep 82223 Time 01h 35m 45s, episode reward -15.0, episode length 2212, reward mean -12.7500
+2018-08-01 14:03:18,590 : UpdateStep 82743 Time 01h 36m 14s, episode reward -11.0, episode length 2542, reward mean -12.7407
+2018-08-01 14:03:47,277 : UpdateStep 83272 Time 01h 36m 43s, episode reward -10.0, episode length 2557, reward mean -12.7263
+2018-08-01 14:04:16,835 : UpdateStep 83799 Time 01h 37m 12s, episode reward -10.0, episode length 2584, reward mean -12.7120
+2018-08-01 14:04:47,312 : UpdateStep 84369 Time 01h 37m 43s, episode reward -10.0, episode length 2746, reward mean -12.6979
+2018-08-01 14:05:17,179 : UpdateStep 84897 Time 01h 38m 13s, episode reward -11.0, episode length 2598, reward mean -12.6891
+2018-08-01 14:05:45,924 : UpdateStep 85429 Time 01h 38m 41s, episode reward -11.0, episode length 2558, reward mean -12.6804
+2018-08-01 14:06:13,845 : UpdateStep 85922 Time 01h 39m 09s, episode reward -13.0, episode length 2324, reward mean -12.6821
+2018-08-01 14:06:46,467 : UpdateStep 86524 Time 01h 39m 42s, episode reward -9.0, episode length 3061, reward mean -12.6633
+2018-08-01 14:07:16,355 : UpdateStep 87056 Time 01h 40m 12s, episode reward -10.0, episode length 2603, reward mean -12.6497
+2018-08-01 14:07:45,882 : UpdateStep 87596 Time 01h 40m 41s, episode reward -7.0, episode length 2641, reward mean -12.6212
+2018-08-01 14:08:12,406 : UpdateStep 88053 Time 01h 41m 08s, episode reward -13.0, episode length 2125, reward mean -12.6231
+2018-08-01 14:08:44,983 : UpdateStep 88648 Time 01h 41m 41s, episode reward -9.0, episode length 3051, reward mean -12.6050
+2018-08-01 14:09:11,715 : UpdateStep 89136 Time 01h 42m 07s, episode reward -12.0, episode length 2246, reward mean -12.6020
+2018-08-01 14:09:41,939 : UpdateStep 89683 Time 01h 42m 37s, episode reward -9.0, episode length 2659, reward mean -12.5842
+2018-08-01 14:10:08,358 : UpdateStep 90153 Time 01h 43m 04s, episode reward -13.0, episode length 2139, reward mean -12.5862
+2018-08-01 14:10:41,654 : UpdateStep 90750 Time 01h 43m 37s, episode reward -8.0, episode length 3003, reward mean -12.5637
+2018-08-01 14:11:06,768 : UpdateStep 91209 Time 01h 44m 02s, episode reward -15.0, episode length 2037, reward mean -12.5756
+2018-08-01 14:11:31,943 : UpdateStep 91659 Time 01h 44m 27s, episode reward -17.0, episode length 1972, reward mean -12.5971
+2018-08-01 14:11:59,754 : UpdateStep 92168 Time 01h 44m 55s, episode reward -11.0, episode length 2419, reward mean -12.5894
+2018-08-01 14:12:31,696 : UpdateStep 92722 Time 01h 45m 27s, episode reward -7.0, episode length 2796, reward mean -12.5625
+2018-08-01 14:13:02,225 : UpdateStep 93277 Time 01h 45m 58s, episode reward -9.0, episode length 2713, reward mean -12.5455
+2018-08-01 14:13:33,145 : UpdateStep 93813 Time 01h 46m 29s, episode reward -11.0, episode length 2663, reward mean -12.5381
+2018-08-01 14:14:02,850 : UpdateStep 94345 Time 01h 46m 58s, episode reward -10.0, episode length 2603, reward mean -12.5261
+2018-08-01 14:14:30,926 : UpdateStep 94847 Time 01h 47m 26s, episode reward -12.0, episode length 2322, reward mean -12.5236
+2018-08-01 14:14:59,336 : UpdateStep 95364 Time 01h 47m 55s, episode reward -11.0, episode length 2445, reward mean -12.5164
+2018-08-01 14:15:29,682 : UpdateStep 95905 Time 01h 48m 25s, episode reward -9.0, episode length 2678, reward mean -12.5000
+2018-08-01 14:15:58,867 : UpdateStep 96434 Time 01h 48m 54s, episode reward -9.0, episode length 2605, reward mean -12.4837
+2018-08-01 14:16:27,309 : UpdateStep 96934 Time 01h 49m 23s, episode reward -11.0, episode length 2384, reward mean -12.4769
+2018-08-01 14:16:57,429 : UpdateStep 97476 Time 01h 49m 53s, episode reward -11.0, episode length 2655, reward mean -12.4700
+2018-08-01 14:17:27,242 : UpdateStep 98001 Time 01h 50m 23s, episode reward -10.0, episode length 2602, reward mean -12.4587
+2018-08-01 14:17:54,969 : UpdateStep 98496 Time 01h 50m 51s, episode reward -11.0, episode length 2365, reward mean -12.4521

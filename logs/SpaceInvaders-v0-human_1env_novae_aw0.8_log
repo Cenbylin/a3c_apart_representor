@@ -1,0 +1,29 @@
+2018-08-04 23:16:39,849 : lr: 0.0001
+2018-08-04 23:16:39,850 : gamma: 0.99
+2018-08-04 23:16:39,850 : tau: 1.0
+2018-08-04 23:16:39,850 : seed: 1
+2018-08-04 23:16:39,850 : workers: 6
+2018-08-04 23:16:39,850 : num_steps: 20
+2018-08-04 23:16:39,850 : max_episode_length: 10000
+2018-08-04 23:16:39,850 : env: SpaceInvaders-v0
+2018-08-04 23:16:39,850 : env_config: config.json
+2018-08-04 23:16:39,850 : shared_optimizer: True
+2018-08-04 23:16:39,850 : load: False
+2018-08-04 23:16:39,850 : save_max: True
+2018-08-04 23:16:39,850 : optimizer: Adam
+2018-08-04 23:16:39,850 : load_model_dir: trained_models/
+2018-08-04 23:16:39,851 : save_model_dir: trained_models/
+2018-08-04 23:16:39,851 : log_dir: logs/
+2018-08-04 23:16:39,851 : gpu_ids: [0, 0]
+2018-08-04 23:16:39,851 : amsgrad: True
+2018-08-04 23:16:39,851 : skip_rate: 4
+2018-08-04 23:16:39,851 : pre_rnet: human_1env_novae
+2018-08-04 23:16:39,851 : rep_train_time: 200
+2018-08-04 23:16:39,851 : trace_length: 200
+2018-08-04 23:16:39,851 : rl_r: 1e-05
+2018-08-04 23:16:39,851 : max_step: 600000
+2018-08-04 23:16:39,851 : actor_weight: 0.8
+2018-08-04 23:16:39,851 : log_target: human_1env_novae_aw0.8
+2018-08-04 23:16:59,716 : UpdateStep 24 Time 00h 00m 19s, episode reward 80.0, episode length 400, reward mean 80.0000
+2018-08-04 23:17:13,638 : UpdateStep 165 Time 00h 00m 33s, episode reward 110.0, episode length 412, reward mean 95.0000
+2018-08-04 23:17:29,747 : UpdateStep 327 Time 00h 00m 49s, episode reward 210.0, episode length 805, reward mean 133.3333

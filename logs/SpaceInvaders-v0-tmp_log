@@ -1,0 +1,47 @@
+2018-08-04 22:09:46,126 : lr: 0.0001
+2018-08-04 22:09:46,127 : gamma: 0.99
+2018-08-04 22:09:46,127 : tau: 1.0
+2018-08-04 22:09:46,127 : seed: 1
+2018-08-04 22:09:46,127 : workers: 3
+2018-08-04 22:09:46,127 : num_steps: 20
+2018-08-04 22:09:46,127 : max_episode_length: 10000
+2018-08-04 22:09:46,127 : env: SpaceInvaders-v0
+2018-08-04 22:09:46,127 : env_config: config.json
+2018-08-04 22:09:46,127 : shared_optimizer: True
+2018-08-04 22:09:46,127 : load: False
+2018-08-04 22:09:46,127 : save_max: True
+2018-08-04 22:09:46,127 : optimizer: Adam
+2018-08-04 22:09:46,127 : load_model_dir: trained_models/
+2018-08-04 22:09:46,127 : save_model_dir: trained_models/
+2018-08-04 22:09:46,127 : log_dir: logs/
+2018-08-04 22:09:46,127 : gpu_ids: [0]
+2018-08-04 22:09:46,128 : amsgrad: True
+2018-08-04 22:09:46,128 : skip_rate: 4
+2018-08-04 22:09:46,128 : pre_rnet: human_1env_novae
+2018-08-04 22:09:46,128 : rep_train_time: 200
+2018-08-04 22:09:46,128 : trace_length: 200
+2018-08-04 22:09:46,128 : rl_r: 0.0001
+2018-08-04 22:09:46,128 : max_step: 100000
+2018-08-04 22:09:46,128 : actor_weight: 100000
+2018-08-04 22:09:46,128 : log_target: tmp
+2018-08-04 22:09:57,471 : UpdateStep 27 Time 00h 00m 11s, episode reward 320.0, episode length 800, reward mean 320.0000
+2018-08-04 22:10:11,104 : UpdateStep 122 Time 00h 00m 24s, episode reward 5.0, episode length 619, reward mean 162.5000
+2018-08-04 22:10:26,724 : UpdateStep 229 Time 00h 00m 40s, episode reward 235.0, episode length 1165, reward mean 186.6667
+2018-08-04 22:10:42,602 : UpdateStep 337 Time 00h 00m 56s, episode reward 235.0, episode length 1144, reward mean 198.7500
+2018-08-04 22:11:01,279 : UpdateStep 448 Time 00h 01m 14s, episode reward 235.0, episode length 1170, reward mean 206.0000
+2018-08-04 22:11:16,805 : UpdateStep 553 Time 00h 01m 30s, episode reward 235.0, episode length 1156, reward mean 210.8333
+2018-08-04 22:11:34,350 : UpdateStep 663 Time 00h 01m 47s, episode reward 375.0, episode length 1218, reward mean 234.2857
+2018-08-04 22:11:48,618 : UpdateStep 760 Time 00h 02m 02s, episode reward 180.0, episode length 822, reward mean 227.5000
+2018-08-04 22:12:04,078 : UpdateStep 857 Time 00h 02m 17s, episode reward 180.0, episode length 806, reward mean 222.2222
+2018-08-04 22:12:18,076 : UpdateStep 955 Time 00h 02m 31s, episode reward 180.0, episode length 819, reward mean 218.0000
+2018-08-04 22:12:33,237 : UpdateStep 1051 Time 00h 02m 46s, episode reward 180.0, episode length 812, reward mean 214.5455
+2018-08-04 22:12:46,998 : UpdateStep 1146 Time 00h 03m 00s, episode reward 180.0, episode length 825, reward mean 211.6667
+2018-08-04 22:13:01,108 : UpdateStep 1243 Time 00h 03m 14s, episode reward 180.0, episode length 798, reward mean 209.2308
+2018-08-04 22:13:15,026 : UpdateStep 1337 Time 00h 03m 28s, episode reward 180.0, episode length 820, reward mean 207.1429
+2018-08-04 22:13:28,947 : UpdateStep 1433 Time 00h 03m 42s, episode reward 180.0, episode length 820, reward mean 205.3333
+2018-08-04 22:13:45,531 : UpdateStep 1529 Time 00h 03m 59s, episode reward 180.0, episode length 800, reward mean 203.7500
+2018-08-04 22:13:59,351 : UpdateStep 1625 Time 00h 04m 12s, episode reward 180.0, episode length 808, reward mean 202.3529
+2018-08-04 22:14:16,711 : UpdateStep 1734 Time 00h 04m 30s, episode reward 270.0, episode length 1221, reward mean 206.1111
+2018-08-04 22:14:33,218 : UpdateStep 1848 Time 00h 04m 46s, episode reward 315.0, episode length 1310, reward mean 211.8421
+2018-08-04 22:14:47,657 : UpdateStep 1939 Time 00h 05m 01s, episode reward 5.0, episode length 676, reward mean 201.5000
+2018-08-04 22:15:01,001 : UpdateStep 2028 Time 00h 05m 14s, episode reward 0.0, episode length 663, reward mean 191.9048
